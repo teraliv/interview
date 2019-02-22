@@ -8,7 +8,7 @@ package com.interview.array;
  * keep the other numbers in the same order they were in before.
  *
  * Time complexity: O(n)
- * Space complexity: O(n)
+ * Space complexity: O(n)M
  *
  * Example:
  * input:  [0, 1, 5, 2, 0, 4, 0, 3]
