@@ -5,10 +5,12 @@ import java.math.BigInteger;
 /**
  * 67. Add Binary
  *
+ * https://leetcode.com/problems/add-binary/
+ * solved on: 02/21/2019
+ *
  * Given two binary strings, return their sum (also a binary string).
  * The input strings are both non-empty and contains only characters 1 or 0.
  *
- * solved on: 02/21/2019
  */
 public class AddBinary {
 
