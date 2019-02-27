@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bca2121d-725e-41a6-94db-8f9a2aa85b9e" name="Default Changelist" comment="" />
+    <list default="true" id="bca2121d-725e-41a6-94db-8f9a2aa85b9e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,10 +14,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/interview/leetcode/RemoveDuplicatesSortedArray.java">
+        <entry file="file://$PROJECT_DIR$/src/com/interview/projecteuler/P8LargestProductInSeries.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-166">
-              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+            <state relative-caret-position="599">
+              <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -53,6 +55,14 @@
         <option value="$PROJECT_DIR$/src/com/interview/leetcode/LongestMountainInArray.java" />
         <option value="$PROJECT_DIR$/src/com/interview/leetcode/ReverseInteger.java" />
         <option value="$PROJECT_DIR$/src/com/interview/leetcode/RemoveDuplicatesSortedArray.java" />
+        <option value="$PROJECT_DIR$/src/com/interview/projecteuler/P1MultiplesOf3And5.java" />
+        <option value="$PROJECT_DIR$/src/com/interview/projecteuler/P2EvenFibonacciNumbers.java" />
+        <option value="$PROJECT_DIR$/src/com/interview/projecteuler/P3LargestPrimeFactor.java" />
+        <option value="$PROJECT_DIR$/src/com/interview/projecteuler/P4LargestPalindromeProduct.java" />
+        <option value="$PROJECT_DIR$/src/com/interview/projecteuler/P5SmallestMultiple.java" />
+        <option value="$PROJECT_DIR$/src/com/interview/projecteuler/P6SumSquareDifference.java" />
+        <option value="$PROJECT_DIR$/src/com/interview/projecteuler/P710001stPrime.java" />
+        <option value="$PROJECT_DIR$/src/com/interview/projecteuler/P8LargestProductInSeries.java" />
       </list>
     </option>
   </component>
@@ -70,6 +80,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -93,7 +105,7 @@
               <item name="interview" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="projecteuler" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="interview" type="b2602c69:ProjectViewProjectNode" />
@@ -106,14 +118,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551237433090" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551239610001" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -138,13 +148,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RemoveDuplicatesSortedArray">
-    <configuration name="LongestMountainInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interview.leetcode.LongestMountainInArray" />
+  <component name="RunManager" selected="Application.P5SmallestMultiple">
+    <configuration name="P1MultiplesOf3And5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interview.projecteuler.P1MultiplesOf3And5" />
       <module name="interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.interview.leetcode.*" />
+          <option name="PATTERN" value="com.interview.projecteuler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,12 +162,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveZeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interview.leetcode.MoveZeros" />
+    <configuration name="P3LargestPrimeFactor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interview.projecteuler.P3LargestPrimeFactor" />
       <module name="interview" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.interview.leetcode.*" />
+          <option name="PATTERN" value="com.interview.projecteuler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P4LargestPalindromeProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interview.projecteuler.P4LargestPalindromeProduct" />
+      <module name="interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.interview.projecteuler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="P5SmallestMultiple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interview.projecteuler.P5SmallestMultiple" />
+      <module name="interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.interview.projecteuler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,39 +214,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interview.leetcode.ReverseInteger" />
-      <module name="interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.interview.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubstringSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interview.string.SubstringSearch" />
-      <module name="interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.interview.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.P5SmallestMultiple" />
+        <item itemvalue="Application.P4LargestPalindromeProduct" />
+        <item itemvalue="Application.P3LargestPrimeFactor" />
+        <item itemvalue="Application.P1MultiplesOf3And5" />
         <item itemvalue="Application.RemoveDuplicatesSortedArray" />
-        <item itemvalue="Application.ReverseInteger" />
-        <item itemvalue="Application.LongestMountainInArray" />
-        <item itemvalue="Application.SubstringSearch" />
-        <item itemvalue="Application.MoveZeros" />
       </list>
     </recent_temporary>
   </component>
@@ -244,18 +254,19 @@
       <workItem from="1551123100877" duration="9901000" />
       <workItem from="1551206303346" duration="7880000" />
       <workItem from="1551226322246" duration="502000" />
-      <workItem from="1551226910136" duration="8633000" />
+      <workItem from="1551226910136" duration="8887000" />
+      <workItem from="1551238067929" duration="1484000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83073000" />
+    <option name="totallyTimeSpent" value="84811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="27" width="1432" height="869" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25539568" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2582734" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -264,7 +275,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49856114" visible="true" weight="0.31660232" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49856114" weight="0.31660232" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3989704" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -434,8 +445,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/interview/leetcode/RemoveDuplicatesSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-166">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        <state relative-caret-position="498">
+          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/interview/projecteuler/P1_MultiplesOf3And5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/interview/projecteuler/P4LargestPalindromeProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="60" column="53" selection-start-line="60" selection-start-column="53" selection-end-line="60" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/interview/projecteuler/P3LargestPrimeFactor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="57" column="27" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/interview/projecteuler/P2EvenFibonacciNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/interview/projecteuler/P1MultiplesOf3And5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/interview/projecteuler/P5SmallestMultiple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/interview/projecteuler/P6SumSquareDifference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/interview/projecteuler/P710001stPrime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/interview/projecteuler/P8LargestProductInSeries.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
         </state>
       </provider>
     </entry>
