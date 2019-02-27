@@ -12,12 +12,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/interview/projecteuler/P8LargestProductInSeries.java">
+        <entry file="file://$PROJECT_DIR$/src/com/interview/leetcode/SingleNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="599">
-              <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+            <state relative-caret-position="190">
+              <caret line="26" column="22" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="26" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -63,6 +63,7 @@
         <option value="$PROJECT_DIR$/src/com/interview/projecteuler/P6SumSquareDifference.java" />
         <option value="$PROJECT_DIR$/src/com/interview/projecteuler/P710001stPrime.java" />
         <option value="$PROJECT_DIR$/src/com/interview/projecteuler/P8LargestProductInSeries.java" />
+        <option value="$PROJECT_DIR$/src/com/interview/leetcode/SingleNumber.java" />
       </list>
     </option>
   </component>
@@ -80,8 +81,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -105,25 +104,20 @@
               <item name="interview" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="projecteuler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-              <item name="string" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551239610001" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551249501597" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -132,6 +126,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/interview/array" />
     </key>
@@ -148,7 +145,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.P5SmallestMultiple">
+  <component name="RunManager" selected="Application.SingleNumber">
     <configuration name="P1MultiplesOf3And5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.interview.projecteuler.P1MultiplesOf3And5" />
       <module name="interview" />
@@ -201,8 +198,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicatesSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interview.leetcode.RemoveDuplicatesSortedArray" />
+    <configuration name="SingleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interview.leetcode.SingleNumber" />
       <module name="interview" />
       <extension name="coverage">
         <pattern>
@@ -216,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingleNumber" />
         <item itemvalue="Application.P5SmallestMultiple" />
         <item itemvalue="Application.P4LargestPalindromeProduct" />
         <item itemvalue="Application.P3LargestPrimeFactor" />
         <item itemvalue="Application.P1MultiplesOf3And5" />
-        <item itemvalue="Application.RemoveDuplicatesSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -255,18 +252,19 @@
       <workItem from="1551206303346" duration="7880000" />
       <workItem from="1551226322246" duration="502000" />
       <workItem from="1551226910136" duration="8887000" />
-      <workItem from="1551238067929" duration="1484000" />
+      <workItem from="1551238067929" duration="1704000" />
+      <workItem from="1551248731781" duration="777000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84811000" />
+    <option name="totallyTimeSpent" value="85808000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="27" width="1432" height="869" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2582734" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2618705" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -275,7 +273,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49856114" weight="0.31660232" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49856114" visible="true" weight="0.31660232" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3989704" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -393,13 +391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/interview/leetcode/AddBinary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/interview/leetcode/PeakElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1555">
@@ -450,13 +441,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/interview/projecteuler/P1_MultiplesOf3And5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/interview/projecteuler/P1_MultiplesOf3And5.java" />
     <entry file="file://$PROJECT_DIR$/src/com/interview/projecteuler/P4LargestPalindromeProduct.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
@@ -506,10 +491,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/digits.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/interview/projecteuler/P8LargestProductInSeries.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+        <state relative-caret-position="401">
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/interview/leetcode/AddBinary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/interview/leetcode/SingleNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="26" column="22" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="26" selection-end-column="22" />
         </state>
       </provider>
     </entry>
