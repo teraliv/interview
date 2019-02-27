@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bca2121d-725e-41a6-94db-8f9a2aa85b9e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bca2121d-725e-41a6-94db-8f9a2aa85b9e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,10 +12,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/interview/leetcode/ReverseInteger.java">
+        <entry file="file://$PROJECT_DIR$/src/com/interview/leetcode/RemoveDuplicatesSortedArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+            <state relative-caret-position="-166">
+              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -54,6 +52,7 @@
         <option value="$PROJECT_DIR$/src/com/interview/string/SubstringSearch.java" />
         <option value="$PROJECT_DIR$/src/com/interview/leetcode/LongestMountainInArray.java" />
         <option value="$PROJECT_DIR$/src/com/interview/leetcode/ReverseInteger.java" />
+        <option value="$PROJECT_DIR$/src/com/interview/leetcode/RemoveDuplicatesSortedArray.java" />
       </list>
     </option>
   </component>
@@ -114,7 +113,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551229675128" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551237433090" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -139,7 +138,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReverseInteger">
+  <component name="RunManager" selected="Application.RemoveDuplicatesSortedArray">
     <configuration name="LongestMountainInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.interview.leetcode.LongestMountainInArray" />
       <module name="interview" />
@@ -166,8 +165,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PeakElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interview.leetcode.PeakElement" />
+    <configuration name="RemoveDuplicatesSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interview.leetcode.RemoveDuplicatesSortedArray" />
       <module name="interview" />
       <extension name="coverage">
         <pattern>
@@ -207,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveDuplicatesSortedArray" />
         <item itemvalue="Application.ReverseInteger" />
         <item itemvalue="Application.LongestMountainInArray" />
         <item itemvalue="Application.SubstringSearch" />
         <item itemvalue="Application.MoveZeros" />
-        <item itemvalue="Application.PeakElement" />
       </list>
     </recent_temporary>
   </component>
@@ -245,12 +244,12 @@
       <workItem from="1551123100877" duration="9901000" />
       <workItem from="1551206303346" duration="7880000" />
       <workItem from="1551226322246" duration="502000" />
-      <workItem from="1551226910136" duration="2536000" />
+      <workItem from="1551226910136" duration="8633000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76976000" />
+    <option name="totallyTimeSpent" value="83073000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="27" width="1432" height="869" extended-state="0" />
@@ -294,10 +293,10 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/interview/leetcode/ReverseInteger.java</url>
-          <line>34</line>
+          <url>file://$PROJECT_DIR$/src/com/interview/leetcode/RemoveDuplicatesSortedArray.java</url>
+          <line>70</line>
           <properties />
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -428,8 +427,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/interview/leetcode/ReverseInteger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="33" column="47" selection-start-line="33" selection-start-column="47" selection-end-line="33" selection-end-column="47" />
+        <state relative-caret-position="463">
+          <caret line="34" column="61" lean-forward="true" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/interview/leetcode/RemoveDuplicatesSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-166">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
         </state>
       </provider>
     </entry>
