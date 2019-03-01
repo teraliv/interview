@@ -14,6 +14,11 @@ public class MissingNumber {
     /**
      * Time complexity: O(n)
      * Space complexity: O(1)
+     *
+     * Logic:
+     * 1. sum up indexes
+     * 2. sum up elements in array
+     * 3. the result is difference between sum of indexes and sum of array elements
      */
     public int findMissingNumber(int[] nums) {
         int i, sum1 = 0, sum2 = 0;
