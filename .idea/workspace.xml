@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bca2121d-725e-41a6-94db-8f9a2aa85b9e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/interview/leetcode/FindDuplicateNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/interview/leetcode/FindDuplicateNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,10 +14,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/interview/linkedlist/LinkedListCycleII.java">
+        <entry file="file://$PROJECT_DIR$/src/com/interview/leetcode/SingleNumberII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="332">
+              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -68,6 +68,7 @@
         <option value="$PROJECT_DIR$/src/com/interview/leetcode/FindDuplicateNumber.java" />
         <option value="$PROJECT_DIR$/src/model/linkedlist/Node.java" />
         <option value="$PROJECT_DIR$/src/com/interview/linkedlist/LinkedListCycleII.java" />
+        <option value="$PROJECT_DIR$/src/com/interview/leetcode/SingleNumberII.java" />
       </list>
     </option>
   </component>
@@ -85,7 +86,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,13 +116,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551410947398" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551735169381" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -149,7 +150,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkedListCycleII">
+  <component name="RunManager" selected="Application.SingleNumberII">
     <configuration name="FindDuplicateNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.interview.leetcode.FindDuplicateNumber" />
       <module name="interview" />
@@ -189,19 +190,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="P5SmallestMultiple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interview.projecteuler.P5SmallestMultiple" />
-      <module name="interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.interview.projecteuler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SingleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.interview.leetcode.SingleNumber" />
       <module name="interview" />
@@ -215,13 +203,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SingleNumberII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interview.leetcode.SingleNumberII" />
+      <module name="interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.interview.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingleNumberII" />
         <item itemvalue="Application.LinkedListCycleII" />
         <item itemvalue="Application.FindDuplicateNumber" />
         <item itemvalue="Application.MissingNumber" />
         <item itemvalue="Application.SingleNumber" />
-        <item itemvalue="Application.P5SmallestMultiple" />
       </list>
     </recent_temporary>
   </component>
@@ -259,18 +260,20 @@
       <workItem from="1551238067929" duration="1704000" />
       <workItem from="1551248731781" duration="2274000" />
       <workItem from="1551295270344" duration="6319000" />
-      <workItem from="1551373363363" duration="9716000" />
+      <workItem from="1551373363363" duration="10710000" />
+      <workItem from="1551470613423" duration="3266000" />
+      <workItem from="1551731876292" duration="1819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103340000" />
+    <option name="totallyTimeSpent" value="109419000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="27" width="1432" height="869" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24604316" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532374" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -279,7 +282,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49856114" visible="true" weight="0.31660232" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49856114" visible="true" weight="0.31660232" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3989704" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -558,6 +561,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/interview/leetcode/SingleNumberII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
         </state>
       </provider>
     </entry>
