@@ -17,9 +17,9 @@ public class ReverseInteger {
             remainder = num % 10;
             reverse   = reverse * 10 + remainder;
             // check integer overflow by comparing remainder and reverse last integer
-            if (reverse  % 10 != remainder)
+            if (reverse % 10 != remainder)
                 return 0;
-            num = num/10;
+            num = num / 10;
         }
 
         if (x < 0) return 0 - reverse;
