@@ -17,8 +17,8 @@ public class LinkedListCycleII {
     public Node detectCycle(Node head) {
         if (head == null || head.next == null) return null;
 
-        Node<Integer> slow = head;
-        Node<Integer> fast = head;
+        Node slow = head;
+        Node fast = head;
 
         while (fast != null && fast.next != null) {
             slow = slow.next;
@@ -61,11 +61,11 @@ public class LinkedListCycleII {
      * @param cycleIndex - index of element tail points to.
      */
     private Node initLinkedList(int[] arr, int cycleIndex) {
-        Node<Integer> head = new Node<>(arr[0]);
-        Node<Integer> current = head, temp, cycle = null;
+        Node head = new Node(arr[0]);
+        Node current = head, temp, cycle = null;
 
         for (int i = 1; i < arr.length; i++) {
-            temp = new Node<>(arr[i]);
+            temp = new Node(arr[i]);
             current.next = temp;
             current = temp;
             if (i == cycleIndex)
