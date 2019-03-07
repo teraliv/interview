@@ -21,6 +21,21 @@ public class LinkedList {
         return head;
     }
 
+
+    /**
+     * print linked list
+     */
+    public static void print(Node head) {
+        Node curr = head;
+        while (curr != null) {
+            if (curr.next != null)
+                System.out.printf("%d -> ", curr.val);
+            else
+                System.out.printf("%d\n", curr.val);
+            curr = curr.next;
+        }
+    }
+
     /**
      * Reverse integer
      */
