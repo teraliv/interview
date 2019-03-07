@@ -1,5 +1,6 @@
 package com.interview.linkedlist;
 
+import model.linkedlist.LinkedList;
 import model.linkedlist.Node;
 
 /**
@@ -39,8 +40,8 @@ public class AddTwoNumbers {
     public static void main(String[] args) {
         AddTwoNumbers ll = new AddTwoNumbers();
 
-        Node l1 = initList(5);
-        Node l2 = initList(5);
+        Node l1 = LinkedList.initList(5);
+        Node l2 = LinkedList.initList(5);
 
         Node l3 = ll.addTwoNumbers(l1, l2);
 
@@ -49,38 +50,5 @@ public class AddTwoNumbers {
             l3 = l3.next;
         }
 
-    }
-
-
-    /**
-     * Initialize a new linked list based on the given number in a reverse way
-     */
-    private static Node initList(int num) {
-        num = reverseInteger(num);
-
-        Node head = new Node(num % 10);
-        Node current = head;
-        num = num / 10;
-
-        while (num != 0) {
-            current.next = new Node(num % 10);
-            num = num / 10;
-            current = current.next;
-        }
-
-        return head;
-    }
-
-    /**
-     * Reverse integer
-     */
-    private static int reverseInteger(int num) {
-        int reverse = 0, remainder;
-        while (num != 0) {
-            remainder = num % 10;
-            reverse   = reverse * 10 + remainder;
-            num       = num / 10;
-        }
-        return reverse;
     }
 }
