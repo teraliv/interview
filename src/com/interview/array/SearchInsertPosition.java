@@ -22,6 +22,10 @@ public class SearchInsertPosition {
         return i;
     }
 
+
+    /**
+     * Test cases
+     */
     public static void main(String[] args) {
         SearchInsertPosition sip = new SearchInsertPosition();
 
