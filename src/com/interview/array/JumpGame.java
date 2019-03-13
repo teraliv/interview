@@ -1,8 +1,5 @@
 package com.interview.array;
 
-import java.util.LinkedList;
-import java.util.Queue;
-
 /**
  * 55. Jump Game
  *
@@ -24,9 +21,9 @@ public class JumpGame {
          * 3. If maximum jump is equal to current index position then end is not reachable.
          */
         for (int i = 0;i < nums.length; i++) {
-            max = (max > (i+ nums[i])) ? max : nums[i] + i;     // record max possible jump
-            if (max >= nums.length-1) return true;              // can jump to last index
-            if (i == max) return false;                         // end is not reachable
+            max = Math.max(i + nums[i], max);       // record max possible jump
+            if (max >= nums.length-1) return true;  // can jump to last index
+            if (i == max) return false;             // end is not reachable
         }
         return true;
     }
