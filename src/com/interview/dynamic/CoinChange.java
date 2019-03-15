@@ -3,10 +3,12 @@ package com.interview.dynamic;
 /**
  * 322. Coin Change
  *
+ *
  * https://leetcode.com/problems/coin-change/
  *
- *
  * Approach: DP
+ * Time complexity: O(nm) where n = number of coins, m = amount
+ * Space complexity: O(m)
  */
 public class CoinChange {
 
