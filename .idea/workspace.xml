@@ -12,12 +12,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/interview/dynamic/DeleteOperationTwoStrings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+            <state relative-caret-position="274">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/interview/dynamic/EditDistance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -37,7 +46,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/interview/sort/InsertionSort.java" />
         <option value="$PROJECT_DIR$/src/com/interview/sort/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/com/interview/sort/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/com/interview/array/MoveAllZerosToEnd.java" />
@@ -88,6 +96,7 @@
         <option value="$PROJECT_DIR$/src/com/interview/array/GasStation.java" />
         <option value="$PROJECT_DIR$/src/com/interview/dynamic/CoinChange.java" />
         <option value="$PROJECT_DIR$/src/com/interview/dynamic/DeleteOperationTwoStrings.java" />
+        <option value="$PROJECT_DIR$/src/com/interview/dynamic/EditDistance.java" />
       </list>
     </option>
   </component>
@@ -141,7 +150,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552677587013" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552953596307" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -169,20 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DeleteOperationTwoStrings">
-    <configuration name="BuySellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.interview.array.BuySellStock" />
-      <module name="interview" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.interview.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.EditDistance">
     <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.interview.dynamic.CoinChange" />
       <module name="interview" />
@@ -198,6 +194,19 @@
     </configuration>
     <configuration name="DeleteOperationTwoStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.interview.dynamic.DeleteOperationTwoStrings" />
+      <module name="interview" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.interview.dynamic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EditDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.interview.dynamic.EditDistance" />
       <module name="interview" />
       <extension name="coverage">
         <pattern>
@@ -237,11 +246,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EditDistance" />
         <item itemvalue="Application.DeleteOperationTwoStrings" />
         <item itemvalue="Application.CoinChange" />
         <item itemvalue="Application.GasStation" />
         <item itemvalue="Application.JumpGame" />
-        <item itemvalue="Application.BuySellStock" />
       </list>
     </recent_temporary>
   </component>
@@ -303,12 +312,13 @@
       <workItem from="1552586513799" duration="11924000" />
       <workItem from="1552676802480" duration="1208000" />
       <workItem from="1552866634426" duration="1560000" />
-      <workItem from="1552930860292" duration="2135000" />
+      <workItem from="1552930860292" duration="2936000" />
+      <workItem from="1552947502758" duration="1458000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="254431000" />
+    <option name="totallyTimeSpent" value="256690000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="27" width="1432" height="869" extended-state="0" />
@@ -323,7 +333,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49856114" visible="true" weight="0.31660232" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49856114" weight="0.31660232" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3989704" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -441,23 +451,10 @@
           <properties />
           <option name="timeStamp" value="55" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/interview/dynamic/DeleteOperationTwoStrings.java</url>
-          <line>41</line>
-          <properties />
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/interview/projecteuler/P2EvenFibonacciNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/interview/projecteuler/P1MultiplesOf3And5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -781,8 +778,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/interview/dynamic/DeleteOperationTwoStrings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+        <state relative-caret-position="274">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/interview/dynamic/EditDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
